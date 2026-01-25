@@ -1,0 +1,93 @@
+
+{
+  "items": [
+    {
+      "name": "Home Full Body - No Equipment",
+      "type": "bodyweight",
+      "level": "beginner",
+      "goal": "lean",
+      "location": "home",
+      "duration": "30-40 minutes",
+      "description": "Effective full-body workout requiring no equipment. Perfect for home training.",
+      "warm_up": [
+        "Jumping jacks - 30 seconds",
+        "High knees - 30 seconds",
+        "Arm circles - 20 each direction",
+        "Hip circles - 10 each direction"
+      ],
+      "exercises": [
+        {
+          "name": "Push-ups",
+          "muscle_group": "chest",
+          "sets": 3,
+          "reps": "10-15",
+          "rest": "60 seconds",
+          "notes": "Keep core tight, lower chest to floor. Modify on knees if needed."
+        },
+        {
+          "name": "Bodyweight Squats",
+          "muscle_group": "legs",
+          "sets": 3,
+          "reps": "15-20",
+          "rest": "60 seconds",
+          "notes": "Sit back like sitting in a chair, keep weight in heels."
+        },
+        {
+          "name": "Pike Push-ups",
+          "muscle_group": "shoulders",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60 seconds",
+          "notes": "Form an inverted V with your body, lower head toward floor."
+        },
+        {
+          "name": "Lunges",
+          "muscle_group": "legs",
+          "sets": 3,
+          "reps": "10 each leg",
+          "rest": "60 seconds",
+          "notes": "Step forward, lower back knee toward floor. Keep front knee over ankle."
+        },
+        {
+          "name": "Superman Hold",
+          "muscle_group": "back",
+          "sets": 3,
+          "reps": "30 seconds",
+          "rest": "45 seconds",
+          "notes": "Lie face down, lift arms and legs off ground, squeeze glutes."
+        },
+        {
+          "name": "Mountain Climbers",
+          "muscle_group": "core",
+          "sets": 3,
+          "reps": "30 seconds",
+          "rest": "45 seconds",
+          "notes": "Maintain plank position while driving knees to chest alternately."
+        },
+        {
+          "name": "Glute Bridges",
+          "muscle_group": "legs",
+          "sets": 3,
+          "reps": "15-20",
+          "rest": "45 seconds",
+          "notes": "Squeeze glutes at top, don't hyperextend lower back."
+        },
+        {
+          "name": "Plank",
+          "muscle_group": "core",
+          "sets": 3,
+          "reps": "30-45 seconds",
+          "rest": "45 seconds",
+          "notes": "Keep body in straight line from head to heels."
+        }
+      ],
+      "cool_down": [
+        "Child's pose - 30 seconds",
+        "Seated forward fold - 30 seconds",
+        "Figure 4 stretch - 30 seconds each side",
+        "Cat-cow stretches - 10 reps"
+      ],
+      "progression": "Add reps each week. Progress to harder variations (e.g., diamond push-ups, jump squats)."
+    }
+  ]
+}

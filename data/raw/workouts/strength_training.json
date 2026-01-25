@@ -1,0 +1,122 @@
+
+{
+  "items": [
+    {
+      "name": "Full Body Strength - Beginner",
+      "type": "strength",
+      "level": "beginner",
+      "goal": "muscle_gain",
+      "location": "gym",
+      "duration": "45-60 minutes",
+      "description": "A comprehensive full-body workout designed for beginners to build foundational strength. Focus on compound movements with proper form.",
+      "warm_up": [
+        "5 minutes light cardio (treadmill or cycling)",
+        "Arm circles - 20 each direction",
+        "Leg swings - 10 each leg",
+        "Bodyweight squats - 10 reps"
+      ],
+      "exercises": [
+        {
+          "name": "Barbell Squat",
+          "muscle_group": "legs",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "90 seconds",
+          "notes": "Keep chest up, knees tracking over toes. Start with just the bar to learn form."
+        },
+        {
+          "name": "Bench Press",
+          "muscle_group": "chest",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "90 seconds",
+          "notes": "Lower bar to mid-chest, press up explosively. Use a spotter when going heavy."
+        },
+        {
+          "name": "Bent Over Row",
+          "muscle_group": "back",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "90 seconds",
+          "notes": "Keep back flat, pull bar to lower chest. Squeeze shoulder blades together."
+        },
+        {
+          "name": "Overhead Press",
+          "muscle_group": "shoulders",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60 seconds",
+          "notes": "Press bar overhead, lockout at top. Engage core throughout."
+        },
+        {
+          "name": "Romanian Deadlift",
+          "muscle_group": "legs",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "90 seconds",
+          "notes": "Hinge at hips, keep slight bend in knees. Feel stretch in hamstrings."
+        },
+        {
+          "name": "Plank",
+          "muscle_group": "core",
+          "sets": 3,
+          "reps": "30-45 seconds",
+          "rest": "60 seconds",
+          "notes": "Keep body in straight line, don't let hips sag."
+        }
+      ],
+      "cool_down": [
+        "5 minutes light stretching",
+        "Quad stretch - 30 seconds each leg",
+        "Hamstring stretch - 30 seconds each leg",
+        "Chest doorway stretch - 30 seconds"
+      ],
+      "progression": "Increase weight by 2.5kg when you can complete all sets with good form. After 4 weeks, consider moving to a split routine."
+    },
+    {
+      "name": "Push Pull Legs - Intermediate",
+      "type": "strength",
+      "level": "intermediate",
+      "goal": "muscle_gain",
+      "location": "gym",
+      "duration": "60-75 minutes",
+      "description": "Classic PPL split for intermediate lifters. Run this 6 days per week with one rest day.",
+      "schedule": [
+        {
+          "day": "Day 1 - Push",
+          "exercises": [
+            {"name": "Bench Press", "sets": 4, "reps": "6-8"},
+            {"name": "Incline Dumbbell Press", "sets": 3, "reps": "8-10"},
+            {"name": "Overhead Press", "sets": 4, "reps": "6-8"},
+            {"name": "Lateral Raises", "sets": 3, "reps": "12-15"},
+            {"name": "Tricep Pushdowns", "sets": 3, "reps": "10-12"},
+            {"name": "Overhead Tricep Extension", "sets": 3, "reps": "10-12"}
+          ]
+        },
+        {
+          "day": "Day 2 - Pull",
+          "exercises": [
+            {"name": "Deadlift", "sets": 4, "reps": "5"},
+            {"name": "Pull-ups", "sets": 4, "reps": "6-10"},
+            {"name": "Barbell Row", "sets": 4, "reps": "6-8"},
+            {"name": "Face Pulls", "sets": 3, "reps": "15-20"},
+            {"name": "Barbell Curl", "sets": 3, "reps": "10-12"},
+            {"name": "Hammer Curls", "sets": 3, "reps": "10-12"}
+          ]
+        },
+        {
+          "day": "Day 3 - Legs",
+          "exercises": [
+            {"name": "Squat", "sets": 4, "reps": "6-8"},
+            {"name": "Romanian Deadlift", "sets": 3, "reps": "8-10"},
+            {"name": "Leg Press", "sets": 3, "reps": "10-12"},
+            {"name": "Leg Curl", "sets": 3, "reps": "10-12"},
+            {"name": "Calf Raises", "sets": 4, "reps": "12-15"},
+            {"name": "Leg Extension", "sets": 3, "reps": "12-15"}
+          ]
+        }
+      ],
+      "progression": "Use progressive overload - add weight or reps each session when possible."
+    }
+  ]
+}

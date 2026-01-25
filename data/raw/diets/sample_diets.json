@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "name": "Balanced Indian Diet - 2000 calories",
+      "dietary_type": "indian_veg",
+      "goal": "lean",
+      "calories": 2000,
+      "description": "Balanced vegetarian Indian diet for maintaining fitness",
+      "macros": {
+        "protein": 100,
+        "carbs": 250,
+        "fats": 65
+      },
+      "meals": [
+        {
+          "name": "Breakfast",
+          "time": "8:00 AM",
+          "items": [
+            {
+              "name": "Oats Upma",
+              "portion": "1 bowl"
+            },
+            {
+              "name": "Boiled Eggs",
+              "portion": "2"
+            },
+            {
+              "name": "Green Tea",
+              "portion": "1 cup"
+            }
+          ],
+          "calories": 400,
+          "protein": 20,
+          "carbs": 50,
+          "fats": 12
+        },
+        {
+          "name": "Lunch",
+          "time": "1:00 PM",
+          "items": [
+            {
+              "name": "Dal",
+              "portion": "1 cup"
+            },
+            {
+              "name": "Roti",
+              "portion": "2"
+            },
+            {
+              "name": "Sabzi",
+              "portion": "1 cup"
+            },
+            {
+              "name": "Salad",
+              "portion": "1 bowl"
+            },
+            {
+              "name": "Curd",
+              "portion": "1/2 cup"
+            }
+          ],
+          "calories": 550,
+          "protein": 25,
+          "carbs": 70,
+          "fats": 18
+        },
+        {
+          "name": "Evening Snack",
+          "time": "5:00 PM",
+          "items": [
+            {
+              "name": "Sprouts Chaat",
+              "portion": "1 cup"
+            },
+            {
+              "name": "Buttermilk",
+              "portion": "1 glass"
+            }
+          ],
+          "calories": 200,
+          "protein": 12,
+          "carbs": 25,
+          "fats": 5
+        },
+        {
+          "name": "Dinner",
+          "time": "8:00 PM",
+          "items": [
+            {
+              "name": "Grilled Paneer",
+              "portion": "100g"
+            },
+            {
+              "name": "Roti",
+              "portion": "2"
+            },
+            {
+              "name": "Mixed Veg",
+              "portion": "1 cup"
+            }
+          ],
+          "calories": 450,
+          "protein": 28,
+          "carbs": 45,
+          "fats": 18
+        }
+      ],
+      "tips": [
+        "Drink 8-10 glasses of water daily",
+        "Avoid processed foods",
+        "Eat dinner at least 2 hours before bed"
+      ],
+      "grocery_list": [
+        "Paneer",
+        "Lentils",
+        "Whole wheat flour",
+        "Fresh vegetables",
+        "Curd",
+        "Eggs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+
+{
+  "items": [
+    {
+      "name": "Indian Vegetarian Diet - Muscle Gain",
+      "dietary_type": "indian_veg",
+      "goal": "muscle_gain",
+      "calories": 2500,
+      "description": "High-protein vegetarian Indian diet optimized for muscle building. Focuses on traditional protein-rich foods.",
+      "macros": {
+        "protein": 150,
+        "carbs": 300,
+        "fats": 80
+      },
+      "meals": [
+        {
+          "name": "Breakfast",
+          "time": "7:00 AM",
+          "items": [
+            {"name": "Paneer Bhurji", "portion": "150g paneer"},
+            {"name": "Multigrain Roti", "portion": "2 pieces"},
+            {"name": "Mixed Vegetable Salad", "portion": "1 cup"},
+            {"name": "Lassi", "portion": "1 glass (200ml)"}
+          ],
+          "calories": 600,
+          "protein": 35,
+          "carbs": 60,
+          "fats": 25
+        },
+        {
+          "name": "Mid-Morning Snack",
+          "time": "10:00 AM",
+          "items": [
+            {"name": "Sprouts Chaat", "portion": "1 cup mixed sprouts"},
+            {"name": "Banana", "portion": "1 medium"},
+            {"name": "Almonds", "portion": "10-12 pieces"}
+          ],
+          "calories": 350,
+          "protein": 15,
+          "carbs": 45,
+          "fats": 12
+        },
+        {
+          "name": "Lunch",
+          "time": "1:00 PM",
+          "items": [
+            {"name": "Rajma", "portion": "1 cup"},
+            {"name": "Brown Rice", "portion": "1.5 cups cooked"},
+            {"name": "Mixed Vegetable Sabzi", "portion": "1 cup"},
+            {"name": "Curd", "portion": "1 cup"},
+            {"name": "Salad", "portion": "1 cup"}
+          ],
+          "calories": 650,
+          "protein": 25,
+          "carbs": 90,
+          "fats": 15
+        },
+        {
+          "name": "Pre-Workout Snack",
+          "time": "4:30 PM",
+          "items": [
+            {"name": "Chana Chaat", "portion": "1 cup"},
+            {"name": "Apple", "portion": "1 medium"}
+          ],
+          "calories": 250,
+          "protein": 12,
+          "carbs": 40,
+          "fats": 5
+        },
+        {
+          "name": "Post-Workout",
+          "time": "6:30 PM",
+          "items": [
+            {"name": "Whey Protein Shake", "portion": "1 scoop with milk"},
+            {"name": "Dates", "portion": "3-4 pieces"}
+          ],
+          "calories": 250,
+          "protein": 30,
+          "carbs": 25,
+          "fats": 5
+        },
+        {
+          "name": "Dinner",
+          "time": "8:00 PM",
+          "items": [
+            {"name": "Dal Makhani", "portion": "1 cup"},
+            {"name": "Multigrain Roti", "portion": "2 pieces"},
+            {"name": "Palak Paneer", "portion": "150g"},
+            {"name": "Salad", "portion": "1 cup"}
+          ],
+          "calories": 600,
+          "protein": 33,
+          "carbs": 55,
+          "fats": 23
+        }
+      ],
+      "tips": [
+        "Soak lentils overnight for better protein absorption",
+        "Add lemon to meals to increase iron absorption",
+        "Include curd/buttermilk for probiotics",
+        "Use ghee in moderation for healthy fats",
+        "Drink plenty of water throughout the day"
+      ],
+      "grocery_list": [
+        "Paneer - 500g",
+        "Mixed lentils (dal) - 500g",
+        "Brown rice - 1kg",
+        "Multigrain atta - 1kg",
+        "Rajma - 250g",
+        "Chickpeas - 250g",
+        "Sprouts mix",
+        "Fresh vegetables (spinach, tomatoes, onions, etc.)",
+        "Fruits (bananas, apples)",
+        "Curd - 1 liter",
+        "Milk - 1 liter",
+        "Almonds - 100g",
+        "Dates - 250g",
+        "Whey protein - as needed"
+      ]
+    },
+    {
+      "name": "Indian Vegetarian Diet - Fat Loss",
+      "dietary_type": "indian_veg",
+      "goal": "fat_loss",
+      "calories": 1600,
+      "description": "Lower calorie vegetarian Indian diet for fat loss while maintaining muscle mass.",
+      "macros": {
+        "protein": 120,
+        "carbs": 150,
+        "fats": 55
+      },
+      "meals": [
+        {
+          "name": "Breakfast",
+          "time": "7:00 AM",
+          "items": [
+            {"name": "Moong Dal Chilla", "portion": "2 pieces"},
+            {"name": "Mint Chutney", "portion": "2 tbsp"},
+            {"name": "Green Tea", "portion": "1 cup"}
+          ],
+          "calories": 300,
+          "protein": 18,
+          "carbs": 35,
+          "fats": 10
+        },
+        {
+          "name": "Mid-Morning Snack",
+          "time": "10:30 AM",
+          "items": [
+            {"name": "Greek Yogurt", "portion": "1 cup"},
+            {"name": "Mixed Berries", "portion": "½ cup"}
+          ],
+          "calories": 180,
+          "protein": 15,
+          "carbs": 20,
+          "fats": 5
+        },
+        {
+          "name": "Lunch",
+          "time": "1:00 PM",
+          "items": [
+            {"name": "Grilled Paneer Salad", "portion": "100g paneer + 2 cups greens"},
+            {"name": "Quinoa", "portion": "½ cup cooked"},
+            {"name": "Cucumber Raita", "portion": "½ cup"}
+          ],
+          "calories": 400,
+          "protein": 28,
+          "carbs": 30,
+          "fats": 18
+        },
+        {
+          "name": "Evening Snack",
+          "time": "4:30 PM",
+          "items": [
+            {"name": "Roasted Chana", "portion": "¼ cup"},
+            {"name": "Buttermilk", "portion": "1 glass"}
+          ],
+          "calories": 150,
+          "protein": 10,
+          "carbs": 20,
+          "fats": 4
+        },
+        {
+          "name": "Dinner",
+          "time": "7:30 PM",
+          "items": [
+            {"name": "Mixed Dal", "portion": "1 cup"},
+            {"name": "Cauliflower Rice", "portion": "1 cup"},
+            {"name": "Stir-fried Vegetables", "portion": "1 cup"},
+            {"name": "Small Salad", "portion": "1 cup"}
+          ],
+          "calories": 350,
+          "protein": 20,
+          "carbs": 35,
+          "fats": 12
+        },
+        {
+          "name": "Before Bed (Optional)",
+          "time": "9:30 PM",
+          "items": [
+            {"name": "Warm Turmeric Milk", "portion": "1 cup (low-fat milk)"}
+          ],
+          "calories": 100,
+          "protein": 8,
+          "carbs": 10,
+          "fats": 3
+        }
+      ],
+      "tips": [
+        "Drink warm water with lemon in the morning",
+        "Avoid fried foods and sweets",
+        "Use minimal oil while cooking",
+        "Eat slowly and mindfully",
+        "Avoid eating after 8 PM if possible"
+      ]
+    }
+  ]
+}

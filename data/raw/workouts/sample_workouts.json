@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "name": "Beginner Full Body Workout",
+      "type": "strength",
+      "level": "beginner",
+      "goal": "lean",
+      "location": "gym",
+      "duration": "45 minutes",
+      "description": "Perfect starter workout for gym beginners",
+      "warm_up": [
+        "5 min treadmill walk",
+        "Arm circles",
+        "Leg swings"
+      ],
+      "exercises": [
+        {
+          "name": "Goblet Squat",
+          "sets": 3,
+          "reps": "12",
+          "rest": "60s",
+          "muscle_group": "legs"
+        },
+        {
+          "name": "Dumbbell Bench Press",
+          "sets": 3,
+          "reps": "10",
+          "rest": "60s",
+          "muscle_group": "chest"
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": 3,
+          "reps": "10",
+          "rest": "60s",
+          "muscle_group": "back"
+        },
+        {
+          "name": "Dumbbell Shoulder Press",
+          "sets": 3,
+          "reps": "10",
+          "rest": "60s",
+          "muscle_group": "shoulders"
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": "30 seconds",
+          "rest": "45s",
+          "muscle_group": "core"
+        }
+      ],
+      "cool_down": [
+        "5 min stretching",
+        "Deep breathing"
+      ],
+      "progression": "Add weight when you can complete all reps with good form"
+    },
+    {
+      "name": "Fat Burning HIIT",
+      "type": "cardio",
+      "level": "intermediate",
+      "goal": "fat_loss",
+      "location": "home",
+      "duration": "25 minutes",
+      "description": "High intensity interval training for maximum fat burn",
+      "warm_up": [
+        "Jumping jacks - 1 min",
+        "High knees - 1 min"
+      ],
+      "exercises": [
+        {
+          "name": "Burpees",
+          "sets": 4,
+          "reps": "30 seconds",
+          "rest": "15s",
+          "muscle_group": "full_body"
+        },
+        {
+          "name": "Mountain Climbers",
+          "sets": 4,
+          "reps": "30 seconds",
+          "rest": "15s",
+          "muscle_group": "core"
+        },
+        {
+          "name": "Jump Squats",
+          "sets": 4,
+          "reps": "30 seconds",
+          "rest": "15s",
+          "muscle_group": "legs"
+        },
+        {
+          "name": "Push-ups",
+          "sets": 4,
+          "reps": "30 seconds",
+          "rest": "15s",
+          "muscle_group": "chest"
+        },
+        {
+          "name": "Bicycle Crunches",
+          "sets": 4,
+          "reps": "30 seconds",
+          "rest": "15s",
+          "muscle_group": "core"
+        }
+      ],
+      "cool_down": [
+        "Walking - 2 min",
+        "Stretching - 3 min"
+      ],
+      "progression": "Increase work intervals or decrease rest"
+    },
+    {
+      "name": "Advanced Push Day",
+      "type": "strength",
+      "level": "advanced",
+      "goal": "muscle_gain",
+      "location": "gym",
+      "duration": "75 minutes",
+      "description": "Intense push workout for experienced lifters",
+      "warm_up": [
+        "5 min cardio",
+        "Rotator cuff warmup",
+        "Light push-ups"
+      ],
+      "exercises": [
+        {
+          "name": "Barbell Bench Press",
+          "sets": 5,
+          "reps": "5",
+          "rest": "180s",
+          "muscle_group": "chest"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "sets": 4,
+          "reps": "8",
+          "rest": "90s",
+          "muscle_group": "chest"
+        },
+        {
+          "name": "Standing Overhead Press",
+          "sets": 4,
+          "reps": "6",
+          "rest": "120s",
+          "muscle_group": "shoulders"
+        },
+        {
+          "name": "Dips",
+          "sets": 4,
+          "reps": "10",
+          "rest": "90s",
+          "muscle_group": "triceps"
+        },
+        {
+          "name": "Cable Flyes",
+          "sets": 3,
+          "reps": "12",
+          "rest": "60s",
+          "muscle_group": "chest"
+        },
+        {
+          "name": "Lateral Raises",
+          "sets": 4,
+          "reps": "15",
+          "rest": "45s",
+          "muscle_group": "shoulders"
+        },
+        {
+          "name": "Tricep Pushdowns",
+          "sets": 3,
+          "reps": "12",
+          "rest": "45s",
+          "muscle_group": "triceps"
+        }
+      ],
+      "cool_down": [
+        "Chest stretches",
+        "Shoulder stretches",
+        "Tricep stretches"
+      ],
+      "progression": "Follow 5/3/1 or linear progression for main lifts"
+    }
+  ]
+}

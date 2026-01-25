@@ -1,0 +1,73 @@
+
+{
+  "items": [
+    {
+      "name": "High Protein Meal Options",
+      "dietary_type": "all",
+      "goal": "muscle_gain",
+      "description": "Collection of high-protein meal options for muscle building",
+      "protein_sources": {
+        "vegetarian": [
+          {"name": "Paneer", "protein_per_100g": 18, "serving": "150g", "preparation": "Grilled, curry, or bhurji"},
+          {"name": "Greek Yogurt", "protein_per_100g": 10, "serving": "200g", "preparation": "Plain or with fruits"},
+          {"name": "Lentils (Dal)", "protein_per_100g": 9, "serving": "1 cup cooked", "preparation": "Tadka dal, dal makhani"},
+          {"name": "Chickpeas", "protein_per_100g": 19, "serving": "1 cup cooked", "preparation": "Chana masala, salad, roasted"},
+          {"name": "Soy Chunks", "protein_per_100g": 52, "serving": "50g dry", "preparation": "Curry, biryani, stir-fry"},
+          {"name": "Cottage Cheese", "protein_per_100g": 11, "serving": "150g", "preparation": "Salads, smoothies"},
+          {"name": "Tofu", "protein_per_100g": 8, "serving": "150g", "preparation": "Stir-fry, curry, grilled"},
+          {"name": "Quinoa", "protein_per_100g": 4, "serving": "1 cup cooked", "preparation": "Salad, pulao"},
+          {"name": "Milk", "protein_per_100g": 3.4, "serving": "500ml", "preparation": "Plain, smoothies, protein shakes"},
+          {"name": "Whey Protein", "protein_per_scoop": 24, "serving": "1-2 scoops", "preparation": "Shake with milk or water"}
+        ],
+        "non_vegetarian": [
+          {"name": "Chicken Breast", "protein_per_100g": 31, "serving": "200g", "preparation": "Grilled, curry, tikka"},
+          {"name": "Eggs", "protein_per_egg": 6, "serving": "4-6 eggs", "preparation": "Boiled, scrambled, omelette"},
+          {"name": "Fish (Salmon)", "protein_per_100g": 20, "serving": "150g", "preparation": "Grilled, curry, baked"},
+          {"name": "Fish (Rohu)", "protein_per_100g": 17, "serving": "150g", "preparation": "Fish curry, fried"},
+          {"name": "Mutton", "protein_per_100g": 25, "serving": "150g", "preparation": "Curry, kebab, biryani"},
+          {"name": "Prawns", "protein_per_100g": 24, "serving": "150g", "preparation": "Curry, stir-fry, grilled"},
+          {"name": "Turkey", "protein_per_100g": 29, "serving": "150g", "preparation": "Grilled, roasted"}
+        ]
+      },
+      "high_protein_meals": [
+        {
+          "meal": "Protein-Packed Breakfast",
+          "options": [
+            "Egg white omelette (5 whites) with vegetables + 2 whole grain toast = 30g protein",
+            "Greek yogurt parfait with nuts and seeds = 25g protein",
+            "Paneer bhurji (150g) with 2 rotis = 35g protein",
+            "Moong dal chilla (3 pieces) with mint chutney = 20g protein"
+          ]
+        },
+        {
+          "meal": "Protein-Packed Lunch",
+          "options": [
+            "Grilled chicken breast (200g) with brown rice and salad = 50g protein",
+            "Rajma chawal (1.5 cups rajma + rice) = 25g protein",
+            "Soy chunk curry with quinoa = 35g protein",
+            "Fish curry with rice = 40g protein"
+          ]
+        },
+        {
+          "meal": "Protein-Packed Snacks",
+          "options": [
+            "Protein shake with banana = 25-30g protein",
+            "Roasted chickpeas (1 cup) = 15g protein",
+            "Cottage cheese with fruits = 20g protein",
+            "Boiled eggs (3) = 18g protein",
+            "Sprouts chaat = 12g protein"
+          ]
+        },
+        {
+          "meal": "Protein-Packed Dinner",
+          "options": [
+            "Dal makhani with paneer tikka = 40g protein",
+            "Chicken tikka with roti and raita = 45g protein",
+            "Tofu stir-fry with vegetables and rice = 25g protein",
+            "Egg curry with chapati = 30g protein"
+          ]
+        }
+      ]
+    }
+  ]
+}

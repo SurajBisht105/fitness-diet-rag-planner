@@ -1,0 +1,134 @@
+
+{
+  "items": [
+    {
+      "name": "Indian Non-Vegetarian Diet - Muscle Gain",
+      "dietary_type": "indian_non_veg",
+      "goal": "muscle_gain",
+      "calories": 2800,
+      "description": "High-protein non-vegetarian Indian diet for muscle building. Includes lean meats, eggs, and traditional preparations.",
+      "macros": {
+        "protein": 180,
+        "carbs": 320,
+        "fats": 85
+      },
+      "meals": [
+        {
+          "name": "Early Morning",
+          "time": "6:00 AM",
+          "items": [
+            {"name": "Whole Eggs", "portion": "3 eggs scrambled/boiled"},
+            {"name": "Multigrain Toast", "portion": "2 slices"},
+            {"name": "Banana", "portion": "1 medium"}
+          ],
+          "calories": 450,
+          "protein": 25,
+          "carbs": 45,
+          "fats": 18
+        },
+        {
+          "name": "Breakfast",
+          "time": "9:00 AM",
+          "items": [
+            {"name": "Chicken Keema Paratha", "portion": "2 parathas with 100g keema"},
+            {"name": "Curd", "portion": "1 cup"},
+            {"name": "Mixed Pickle", "portion": "1 tbsp"}
+          ],
+          "calories": 600,
+          "protein": 35,
+          "carbs": 60,
+          "fats": 22
+        },
+        {
+          "name": "Mid-Morning Snack",
+          "time": "11:30 AM",
+          "items": [
+            {"name": "Protein Shake", "portion": "1 scoop with milk"},
+            {"name": "Almonds", "portion": "15 pieces"}
+          ],
+          "calories": 300,
+          "protein": 30,
+          "carbs": 15,
+          "fats": 15
+        },
+        {
+          "name": "Lunch",
+          "time": "1:30 PM",
+          "items": [
+            {"name": "Grilled Chicken Breast", "portion": "200g"},
+            {"name": "Brown Rice", "portion": "1.5 cups cooked"},
+            {"name": "Dal Tadka", "portion": "1 cup"},
+            {"name": "Mixed Vegetable Curry", "portion": "1 cup"},
+            {"name": "Salad", "portion": "1 cup"}
+          ],
+          "calories": 750,
+          "protein": 55,
+          "carbs": 80,
+          "fats": 18
+        },
+        {
+          "name": "Pre-Workout",
+          "time": "5:00 PM",
+          "items": [
+            {"name": "Egg White Omelette", "portion": "4 egg whites"},
+            {"name": "Brown Bread", "portion": "2 slices"},
+            {"name": "Black Coffee", "portion": "1 cup"}
+          ],
+          "calories": 250,
+          "protein": 20,
+          "carbs": 30,
+          "fats": 5
+        },
+        {
+          "name": "Post-Workout",
+          "time": "7:00 PM",
+          "items": [
+            {"name": "Whey Protein Shake", "portion": "1.5 scoops with water"},
+            {"name": "Banana", "portion": "1 large"},
+            {"name": "Honey", "portion": "1 tbsp"}
+          ],
+          "calories": 300,
+          "protein": 35,
+          "carbs": 40,
+          "fats": 2
+        },
+        {
+          "name": "Dinner",
+          "time": "9:00 PM",
+          "items": [
+            {"name": "Fish Curry (Rohu/Salmon)", "portion": "200g"},
+            {"name": "Jeera Rice", "portion": "1 cup cooked"},
+            {"name": "Mixed Vegetable Sabzi", "portion": "1 cup"},
+            {"name": "Raita", "portion": "½ cup"}
+          ],
+          "calories": 550,
+          "protein": 40,
+          "carbs": 50,
+          "fats": 20
+        }
+      ],
+      "tips": [
+        "Grill or bake chicken instead of frying",
+        "Remove skin from chicken to reduce fat",
+        "Include fatty fish like salmon twice a week for omega-3",
+        "Marinate meats with yogurt and spices for tenderness",
+        "Space protein intake evenly throughout the day"
+      ],
+      "grocery_list": [
+        "Chicken breast - 1.5 kg",
+        "Eggs - 2 dozen",
+        "Fish (Rohu/Salmon) - 500g",
+        "Chicken keema - 500g",
+        "Brown rice - 1 kg",
+        "Multigrain atta - 1 kg",
+        "Mixed lentils - 500g",
+        "Fresh vegetables",
+        "Curd - 1 liter",
+        "Milk - 2 liters",
+        "Whey protein",
+        "Almonds - 200g",
+        "Bananas - 1 dozen"
+      ]
+    }
+  ]
+}
