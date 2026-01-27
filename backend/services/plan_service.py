@@ -217,3 +217,4 @@ class PlanService:
             return f"Based on my progress: {'; '.join(base_query)}. Please generate an updated {plan_type} plan."
         else:
             return f"Generate an updated {plan_type} plan based on my current progress."
+        
