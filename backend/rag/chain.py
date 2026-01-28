@@ -15,6 +15,7 @@ class FitnessRAGChain:
         self._llm = None
         self._calorie_calculator = None
     
+    
     @property
     def retriever(self):
         if self._retriever is None:
