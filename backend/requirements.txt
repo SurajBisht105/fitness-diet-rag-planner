@@ -1,0 +1,42 @@
+# requirements.txt
+# Core
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+
+# Database
+sqlalchemy
+aiosqlite
+
+# AI/ML
+langchain
+langchain-google-genai
+langchain-community
+langchain-pinecone
+langchain-huggingface
+google-generativeai
+sentence-transformers
+
+# Vector Database
+pinecone-client
+
+# Streamlit
+streamlit
+plotly
+pandas
+
+# HTTP Client
+requests
+httpx
+
+# Utilities
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+
+# # Testing
+# pytest==7.4.4
+# pytest-asyncio
+# httpx
