@@ -32,8 +32,8 @@ class Settings(BaseSettings):
     
     # Google Gemini
     GOOGLE_API_KEY: str
-    GEMINI_MODEL: str = "gemini-1.5-flash"
-    GEMINI_EMBEDDING_MODEL: str = "models/embedding-001"
+    GEMINI_MODEL: str = "gemini-2.5-flash"
+    GEMINI_EMBEDDING_MODEL: str = "models/gemini-embedding-001"
     
     # HuggingFace (Alternative)
     HUGGINGFACE_API_KEY: Optional[str] = None

@@ -15,12 +15,10 @@ langchain
 langchain-google-genai
 langchain-community
 langchain-pinecone
-langchain-huggingface
 google-generativeai
-sentence-transformers
 
 # Vector Database
-pinecone-client
+pinecone
 
 # Streamlit
 streamlit
