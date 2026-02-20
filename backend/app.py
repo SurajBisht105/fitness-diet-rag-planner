@@ -5,6 +5,12 @@ import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
+import sys
+from pathlib import Path
+
+# Ensure the project root is in the path
+current_dir = Path(__file__).parent
+sys.path.insert(0, str(current_dir))
 
 from backend.config import settings
 from backend.database.connection import init_db
