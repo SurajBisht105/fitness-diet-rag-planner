@@ -5,7 +5,7 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 python-dotenv
-
+PyYAML==6.0.2
 # Database
 sqlalchemy
 aiosqlite
