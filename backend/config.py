@@ -7,7 +7,7 @@ Uses Pydantic Settings for type-safe configuration.
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 from typing import Optional
-from pathlib import Path
+import os
 
 
 class Settings(BaseSettings):
@@ -18,9 +18,9 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = False
     
-    # API
+    # API - Deployment platforms inject PORT env variable automatically
     API_HOST: str = "0.0.0.0"
-    API_PORT: int = 8000
+    API_PORT: int = int(os.environ.get("PORT", 8000))  # ✅ Read platform PORT
     API_PREFIX: str = "/api/v1"
     
     # Database
@@ -50,8 +50,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
     class Config:
-        env_file = str(Path(__file__).parent.parent / ".env")  # Explicit path to .env
-        env_file_encoding = "utf-8"
+        env_file = ".env"
         case_sensitive = True
 
 
