@@ -49,7 +49,8 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
     class Config:
-        env_file = ".env"
+        env_file = str(Path(__file__).parent.parent / ".env")  # Explicit path to .env
+        env_file_encoding = "utf-8"
         case_sensitive = True
 
 
