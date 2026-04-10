@@ -7,6 +7,7 @@ Uses Pydantic Settings for type-safe configuration.
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 from typing import Optional
+from pathlib import Path
 
 
 class Settings(BaseSettings):
