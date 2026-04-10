@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import sys
 from pathlib import Path
+import os
 
 # Ensure the project root is in the path
 current_dir = Path(__file__).parent
@@ -131,13 +132,16 @@ async def info():
         "api_prefix": settings.API_PREFIX
     }
 
+ # ✅ Always respect PORT env var from deployment platform
+port = int(os.environ.get("PORT", settings.API_PORT))
+host = "0.0.0.0"  # ✅ Force bind to all interfaces
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
         "backend.app:app",
-        host=settings.API_HOST,
-        port=settings.API_PORT,
+        host=host,
+        port=port,
         reload=settings.DEBUG,
         log_level="debug" if settings.DEBUG else "info"
     )
