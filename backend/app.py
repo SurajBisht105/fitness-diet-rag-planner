@@ -135,7 +135,7 @@ async def info():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
-        "backend.main:app",
+        "backend.app:app",
         host=settings.API_HOST,
         port=settings.API_PORT,
         reload=settings.DEBUG,
